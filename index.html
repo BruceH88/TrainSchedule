@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Train Schedule</title>
+  <!-- Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/train.css">
+</head>
+
+<body>
+  <!-- display the header for the station -->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Harmsville Train Station</h1>
+    <p class="lead">Welcome to the online train schedule. </p>
+  </div>
+  <div class="container">
+    <!-- show the current time -->
+    <div class="row">
+      <h2 id="currentTime">10:10 am</h2>
+    </div>
+    <!-- display the train schedule -->
+    <div class="row">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Train Name</th>
+            <th scope="col">Destination</th>
+            <th scope="col">Next Departure</th>
+            <th scope="col">Time until Departure (min)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">526</th>
+            <td>New Bruswick</td>
+            <td>10:20 am</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- display form to add trains -->
+    <div class="row">
+
+    </div>
+  </div>
+
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+  <!-- Bootstrap Reference -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- Momentjs Reference -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <!-- My javascript Reference -->
+  <script src="assets/javascript/train.js"></script>
+</body>
+
+</html>
