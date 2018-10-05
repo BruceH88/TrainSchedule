@@ -1,0 +1,30 @@
+body {
+background-color: blanchedalmond
+}
+
+h2 {
+  margin: auto;
+  color: blue;
+}
+
+.stationName {
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.75;
+  /* filter: alpha(opacity=90); */
+}
+
+.formDiv {
+  background-color: darkseagreen;
+}
+
+.delBtn {
+  margin-left: 5px;
+}
+
+#background {
+  background-image: url("../images/station.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
